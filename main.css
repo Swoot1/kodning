@@ -1,0 +1,23 @@
+p {
+    color: black;
+}
+.menu li {
+    float: left;/*Jag vill att texten ska ligga vågrätt*/
+    list-style-type: none; /*Jag vill inte ha några fula punkter*/
+    padding: 2px 3px 2px 2px; /* de ska inte ligga på varandra */
+    background-color: #32c4d0; 
+}
+
+.menu li:hover { 
+    background-color:#2c8e96; /*det måste vara en annan färg på hovereffekten */
+}
+.content {
+    clear: both;
+    margin-left: 16px;
+}
+li.active {
+    background-color:green
+}
+.fjord
+{width:300px;height:425px;
+}

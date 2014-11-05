@@ -1,0 +1,14 @@
+<h2>Kontaktformulär</h2>
+<form method="post" id="contactForm" action="tack"> <!--Använder form för att skapa ett formulär, anger ID för att kunna lägga till validering, använder action för att visa var vi skickar svaret, method post för att inte få med svaren i url:n-->
+    <input name="errend" placeholder="Vad gäller ärendet?" required/>
+    <br> <!--använder input för att göra en liten ruta, namnger rutan för att kunna koppla namnet till att spara svaren i tacksidan, använder placeholder då jag tycker det är snyggare än label, lägger till required för att göra obligatoriskt-->
+    <textarea name="request" type="text" placeholder="Förfrågan" required></textarea><!--Använder textarea för att göra en något större ruta-->
+    <br>
+    <input name="email" type="email" placeholder="E-mail" required/>
+    <br>
+    <label for="newsletter">Vill du ha mitt nyhetsbrev?</label><!--går ej att göra placeholder här, använder därför label-->
+    <input type="checkbox" id="newsletter" />
+    <br>
+    <input type="submit" value="Skicka förfrågan" />
+</form>
+
