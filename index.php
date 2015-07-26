@@ -23,5 +23,3 @@ if($resource==='profilbild' || $resource===''){
     else {
     echo $template->getTemplate(file_get_contents('templates/404.html'));
 }
-
-die(); // TODO Remember to remove this.
